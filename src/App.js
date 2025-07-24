@@ -12,7 +12,9 @@ git的本地操作
    那么该文件夹下会出现一个.git 的文件夹，这个文件夹就变成了一个由git管理的本地仓库，
    注意： 1. 空文件夹git不管
           2. 当使用cra创建react项目时，会自动初始化git仓库
-        
+
+
+git的远程操作
 */
 import Button from "@mui/material/Button";
 function App() {
@@ -24,7 +26,7 @@ function App() {
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
       <h1>工作区添加到暂停区</h1>
-      <div>11111</div>
+      <div>远程仓库上传</div>
     </div>
   );
 }
